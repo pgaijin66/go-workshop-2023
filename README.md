@@ -245,13 +245,13 @@ The size (8, 16, 32, 64, 128, etc) indicates how many bits in memory will be use
 
 The standard sizes that should be used unless the developer has a specific need are:
 
-int
+1. int
 
-uint
+2. uint
 
-float64
+3. float64
 
-complex128
+4. complex128
 
 
 ### Type conversion
