@@ -101,7 +101,26 @@ func main() {
 }
 ```
 
+### Rune
+
+Rune is a character in go. It is an integer that represents an unicode code point.
+
+
+```go
+package main
+
+func main() {
+	name := "Hello"
+	name2 := []byte{}
+	name2 = append(name2, 72, 119, 108, 108, 111)
+	fmt.Println(name)
+	fmt.Println((string(name2)))
+}
+```
+
 ### Arithmetics
+
+Some arithmetic operations in go
 
 ```go
 package main
@@ -129,6 +148,18 @@ func main() {
 ```
 
 ### Array
+
+Array are fixed sized groups of variable of same type
+
+`[sizeOfArray]Type`
+
+eg: `var myInts [10]int`
+
+or declare an initialised literal
+
+primes := [10]int{1,2,3,4,5,6,7,8,10}
+
+
 ```go
 package main
 
@@ -143,6 +174,8 @@ func main() {
 ```
 
 ### Slices
+
+Slice is a variable-length sequence which stores elements of a similar type
 
 ```go
 package main
@@ -162,6 +195,10 @@ func main() {
 ```
 
 ### Maps
+
+Maps are similar to Javascript objects, python dict or ruby hashes. They are data structure that provide a key->value mapping
+
+The zero value of a map is nil
 
 ```go
 package main
