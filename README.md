@@ -1,5 +1,7 @@
 # Go Workshop 2023
 
+*Note: These notes might change over time*
+
 ###  Before we begin
 
 Compiled vs Intrepred programming language
