@@ -5,9 +5,9 @@
 ###  Before we begin
 
 Compiled vs Intrepred programming language
-    Compiled = Code -> Machine code( 1 & 1 ) -> Execute  eg: C/C++ , Go = Faster
+    Compiled = Code -> Machine code( 1 & 0 ) -> Execute  eg: C/C++ , Go = Faster
 
-    Intrepreted = Code -> Intrepreter -> VM -> Execute eg: Python, PHP , Java ( JIT )
+    Intrepreted = Code -> Intrepreter -> VM -> Execute eg: Python, PHP , Java ( JIT is shrinking the gap)
 
 Statically vs Dynamically typed
 
@@ -17,9 +17,9 @@ Statically vs Dynamically typed
 
 Strongly vs Weakly typed
 
-    Strong = Type checking between unrelated typed does allow eg: Go
+    Strong = Mixing between unrelated typed is not allowed eg: Go
 
-    Weakly = Type checking between unrelated typed does allow eg: JS (TS)
+    Weakly = ixing between unrelated typed is allowed eg: JS (TS)
 
 ### What is GO ?
 
