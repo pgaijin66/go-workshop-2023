@@ -21,11 +21,13 @@ Strongly vs Weakly typed
 
     Weakly = Type checking between unrelated typed does allow eg: JS (TS)
 
-### What is GO ( Rob pike, Ken Thomson and team )
+### What is GO ?
 
 Go is a strongly and statically typed compiled programming language
 
 Go is a very opionated programming langugue, enforced best practices, less error prone, less buggy code
+
+Go was created by Robert Griesemer, Rob Pike, and Ken Thompson.
 
 ### Is GO OOP ?
 
